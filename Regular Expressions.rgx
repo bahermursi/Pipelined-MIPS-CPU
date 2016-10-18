@@ -1,0 +1,20 @@
+([1-2]?[0-9])|(3[0-1])
+(zero)|(at)|(v[0-1])|(a[0-3])|(t[0-9])|(s[0-8])|(k[0-1])|((g|s)p)|(ra)
+(-?[[:digit:]]+)
+(0x[0-9a-fA-F]+)
+( |\t)*add( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*REG( |\t)*
+( |\t)*sub( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*REG( |\t)*
+( |\t)*or( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*REG( |\t)*
+( |\t)*xor( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*REG( |\t)*
+( |\t)*slt( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*REG( |\t)*
+( |\t)*jr( |\t)+REG( |\t)*
+( |\t)*addi( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*IMM( |\t)*
+( |\t)*beq( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*IMM( |\t)*
+( |\t)*bne( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*IMM( |\t)*
+( |\t)*ble( |\t)+REG( |\t)*,( |\t)*REG( |\t)*,( |\t)*IMM( |\t)*
+( |\t)*lw( |\t)+REG( |\t)*,( |\t)*IMM( |\t)*\(( |\t)*REG( |\t)*\)( |\t)*
+( |\t)*sw( |\t)+REG( |\t)*,( |\t)*IMM( |\t)*\(( |\t)*REG( |\t)*\)( |\t)*
+( |\t)*j( |\t)+IMM( |\t)*
+( |\t)*jal( |\t)+IMM( |\t)*
+( |\t)*jump_procedure( |\t)+IMM( |\t)*
+( |\t)*return_procedure( |\t)*

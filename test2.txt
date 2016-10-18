@@ -1,0 +1,13 @@
+jump_procedure 2
+j 8
+addi $1, $0, 11
+add $2, $0, $0
+beq $2, $1, 7
+addi $2, $2, 1
+j 4
+return_procedure
+addi $2, $2, -1
+sw $2, 0($0)
+lw $3, 0($0)
+jr $3
+add $0, $0, $0

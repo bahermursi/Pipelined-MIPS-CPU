@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Logo.png</file>
+        <file>Pic/right.png</file>
+        <file>Pic/wrong.png</file>
+        <file>Pic/FrontPage.png</file>
+        <file>Pic/Untitled.jpg</file>
+    </qresource>
+    <qresource prefix="/files">
+        <file>Regular Expressions.rgx</file>
+    </qresource>
+</RCC>
