@@ -103,7 +103,7 @@ void MainWindow::on_helpButton_clicked()
 
 void MainWindow::on_checkSyntaxButton_clicked()
 {
-    isCorrect = (linesIndex.size() == 0) && openedFile;
+    isCorrect = (linesIndex.size() != 0) && openedFile;
     if(isCorrect){
         ui->correctLabel->setVisible(true);
         ui->wrongLabel->setVisible(false);
